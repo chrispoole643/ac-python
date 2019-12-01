@@ -8,7 +8,8 @@
 
 Setup [Auto-Complete](https://www.emacswiki.org/emacs/AutoComplete) in
 the usual fashion, and make sure it gets loaded for python
-buffers. Then, place this file in your load-path, and add
+buffers. Then, place [ac-python.el][./ac-python.el] in your load-path,
+and add
 
 ```lisp
 (require 'ac-python)
